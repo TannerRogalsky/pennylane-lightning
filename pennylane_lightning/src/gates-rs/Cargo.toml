@@ -1,0 +1,11 @@
+[package]
+name = "gates"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+num-complex = "0.4.2"
+num-traits = "0.2.15"
